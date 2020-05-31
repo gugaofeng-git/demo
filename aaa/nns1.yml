@@ -1,0 +1,12 @@
+spring: 
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+name: aaaaaa1
+---
+spring:
+  profiles: test
+name: aaaaaa2
